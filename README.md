@@ -1,9 +1,9 @@
 #ProFinalKicadV1
-Inicio Proyecto Final KIcad
 
 
 
-###Esto es un ejemplo de README.md
+
+###Inicio Proyecto Final KIcad.Esto es un ejemplo de README.md
 
 
 
