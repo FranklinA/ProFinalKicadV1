@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ERJ-3GEYJ270V
+#
+DEF ERJ-3GEYJ270V R 0 40 N N 1 L N
+F0 "R" -150 59 50 H V L BNN
+F1 "ERJ-3GEYJ270V" -150 -130 50 H V L BNN
+F2 "RESC1608X55" 0 0 50 H I L BNN
+F3 "0603 Panasonic" 0 0 50 H I L BNN "Package"
+F4 "ERJ-3GEYJ270V" 0 0 50 H I L BNN "MP"
+F5 "Resistor Thick Film 0603 27 Ohm 5%25 1/10 Watt %C2%B1200ppm %C2%B0C Surface Mount Punched Carrier Tape and Reel" 0 0 50 H I L BNN "Description"
+F6 "Good" 0 0 50 H I L BNN "Availability"
+F7 "Panasonic" 0 0 50 H I L BNN "MF"
+F8 "0.01 USD" 0 0 50 H I L BNN "Price"
+DRAW
+P 2 0 0 8 -100 0 -85 40 N
+P 2 0 0 8 -85 40 -60 -40 N
+P 2 0 0 8 -60 -40 -35 40 N
+P 2 0 0 8 -35 40 -10 -40 N
+P 2 0 0 8 -10 -40 15 40 N
+P 2 0 0 8 15 40 40 -40 N
+P 2 0 0 8 40 -40 65 40 N
+P 2 0 0 8 65 40 90 -40 N
+P 2 0 0 8 90 -40 100 0 N
+X 2 2 200 0 100 L 40 40 0 0 P 
+X 1 1 -200 0 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

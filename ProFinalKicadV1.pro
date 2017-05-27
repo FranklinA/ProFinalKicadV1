@@ -1,4 +1,4 @@
-update=Saturday, 13 '13e' May '13e' 2017, 05:51:23 PM
+update=Saturday, 27 '27e' May '27e' 2017, 05:47:46 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,5 +58,9 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=kicadlibrary/open-project
+LibName31=NorBotKiCadSchematicLibraries/NorBot
+LibName32=pf.libs/ej2cese
+LibName33=pf.libs/FT231XS
+LibName34=pf.libs/ERJ-3GEYJ270V
+LibName35=pf.libs/XB24-Z7WIT-004

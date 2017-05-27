@@ -1,0 +1,357 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:open-project
+LIBS:NorBot
+LIBS:ej2cese
+LIBS:FT231XS
+LIBS:ERJ-3GEYJ270V
+LIBS:XB24-Z7WIT-004
+LIBS:ProFinalKicadV1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3000 2750 0    60   Input ~ 0
+GND
+Text HLabel 3000 2100 0    60   Input ~ 0
+VBUS
+Text HLabel 3000 2950 0    60   Input ~ 0
+D-
+Text HLabel 3000 3150 0    60   Input ~ 0
+D+
+$Comp
+L FT231XS U3
+U 1 1 5929F5BC
+P 5000 3050
+F 0 "U3" H 4800 3250 50  0000 L BNN
+F 1 "FT231XS" H 4800 2850 50  0000 L BNN
+F 2 "SSOP20" H 5000 3050 50  0001 L BNN
+F 3 "SSOP-20 FTDI" H 5000 3050 50  0001 L BNN
+F 4 "FT231XS" H 5000 3050 50  0001 L BNN "MP"
+F 5 "I/F%2C USB2.0 FS TO F/L H/S UART%2C 20SSOP%3B USB Type%3A Transceiver%3B USB Version%3A 2.0%3B Data Rate%3A 3Mbaud%3B Supply Voltage Ra..." H 5000 3050 50  0001 L BNN "Description"
+F 6 "Warning" H 5000 3050 50  0001 L BNN "Availability"
+F 7 "FTDI" H 5000 3050 50  0001 L BNN "MF"
+F 8 "2.63 USD" H 5000 3050 50  0001 L BNN "Price"
+	1    5000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 5929F859
+P 4050 2350
+F 0 "#PWR02" H 4050 2200 50  0001 C CNN
+F 1 "+5V" H 4050 2490 50  0000 C CNN
+F 2 "" H 4050 2350 50  0000 C CNN
+F 3 "" H 4050 2350 50  0000 C CNN
+	1    4050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 5929FA06
+P 3650 2300
+F 0 "C6" H 3675 2400 50  0000 L CNN
+F 1 "0.1uF" H 3675 2200 50  0000 L CNN
+F 2 "" H 3688 2150 50  0000 C CNN
+F 3 "" H 3650 2300 50  0000 C CNN
+	1    3650 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5929FB90
+P 3650 2500
+F 0 "#PWR03" H 3650 2250 50  0001 C CNN
+F 1 "GND" H 3650 2350 50  0000 C CNN
+F 2 "" H 3650 2500 50  0000 C CNN
+F 3 "" H 3650 2500 50  0000 C CNN
+	1    3650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERJ-3GEYJ270V R3
+U 1 1 5929FE24
+P 3800 2950
+F 0 "R3" H 3650 3009 50  0000 L BNN
+F 1 "27" H 3750 3000 50  0000 L BNN
+F 2 "RESC1608X55" H 3800 2950 50  0001 L BNN
+F 3 "0603 Panasonic" H 3800 2950 50  0001 L BNN
+F 4 "ERJ-3GEYJ270V" H 3800 2950 50  0001 L BNN "MP"
+F 5 "Resistor Thick Film 0603 27 Ohm 5%25 1/10 Watt %C2%B1200ppm %C2%B0C Surface Mount Punched Carrier Tape and Reel" H 3800 2950 50  0001 L BNN "Description"
+F 6 "Good" H 3800 2950 50  0001 L BNN "Availability"
+F 7 "Panasonic" H 3800 2950 50  0001 L BNN "MF"
+F 8 "0.01 USD" H 3800 2950 50  0001 L BNN "Price"
+	1    3800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ERJ-3GEYJ270V R4
+U 1 1 5929FE8A
+P 3800 3150
+F 0 "R4" H 3650 3209 50  0000 L BNN
+F 1 "27" H 3750 3200 50  0000 L BNN
+F 2 "RESC1608X55" H 3800 3150 50  0001 L BNN
+F 3 "0603 Panasonic" H 3800 3150 50  0001 L BNN
+F 4 "ERJ-3GEYJ270V" H 3800 3150 50  0001 L BNN "MP"
+F 5 "Resistor Thick Film 0603 27 Ohm 5%25 1/10 Watt %C2%B1200ppm %C2%B0C Surface Mount Punched Carrier Tape and Reel" H 3800 3150 50  0001 L BNN "Description"
+F 6 "Good" H 3800 3150 50  0001 L BNN "Availability"
+F 7 "Panasonic" H 3800 3150 50  0001 L BNN "MF"
+F 8 "0.01 USD" H 3800 3150 50  0001 L BNN "Price"
+	1    3800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 592A0280
+P 3100 2750
+F 0 "#PWR04" H 3100 2500 50  0001 C CNN
+F 1 "GND" H 3100 2600 50  0000 C CNN
+F 2 "" H 3100 2750 50  0000 C CNN
+F 3 "" H 3100 2750 50  0000 C CNN
+	1    3100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 592A02A8
+P 3350 2300
+F 0 "C4" H 3375 2400 50  0000 L CNN
+F 1 "0.1uF" H 3375 2200 50  0000 L CNN
+F 2 "" H 3388 2150 50  0000 C CNN
+F 3 "" H 3350 2300 50  0000 C CNN
+	1    3350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 592A02FF
+P 3350 2500
+F 0 "#PWR05" H 3350 2250 50  0001 C CNN
+F 1 "GND" H 3350 2350 50  0000 C CNN
+F 2 "" H 3350 2500 50  0000 C CNN
+F 3 "" H 3350 2500 50  0000 C CNN
+	1    3350 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR06
+U 1 1 592A03F5
+P 3350 2050
+F 0 "#PWR06" H 3350 1900 50  0001 C CNN
+F 1 "+5V" H 3350 2190 50  0000 C CNN
+F 2 "" H 3350 2050 50  0000 C CNN
+F 3 "" H 3350 2050 50  0000 C CNN
+	1    3350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 592A0903
+P 3200 3350
+F 0 "C3" H 3225 3450 50  0000 L CNN
+F 1 "47pF" H 2900 3350 50  0000 L CNN
+F 2 "" H 3238 3200 50  0000 C CNN
+F 3 "" H 3200 3350 50  0000 C CNN
+	1    3200 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 592A093A
+P 3450 3350
+F 0 "C5" H 3475 3450 50  0000 L CNN
+F 1 "47pF" H 3550 3350 50  0000 L CNN
+F 2 "" H 3488 3200 50  0000 C CNN
+F 3 "" H 3450 3350 50  0000 C CNN
+	1    3450 3350
+	1    0    0    -1  
+$EndComp
+Text Label 3100 2750 0    60   ~ 0
+GND
+Text Label 3450 3500 0    60   ~ 0
+GND
+Wire Wire Line
+	4100 2350 4050 2350
+Wire Wire Line
+	3650 2150 4100 2150
+Wire Wire Line
+	3950 2150 3950 2750
+Wire Wire Line
+	3950 2550 4100 2550
+Wire Wire Line
+	3950 2750 4100 2750
+Connection ~ 3950 2550
+Connection ~ 3950 2150
+Wire Wire Line
+	3650 2450 3650 2500
+Wire Wire Line
+	4100 2950 4000 2950
+Wire Wire Line
+	4100 3150 4000 3150
+Wire Wire Line
+	3600 2950 3000 2950
+Wire Wire Line
+	3600 3150 3000 3150
+Wire Wire Line
+	3000 2750 3100 2750
+Wire Wire Line
+	3350 2500 3350 2450
+Wire Wire Line
+	3350 2050 3350 2150
+Wire Wire Line
+	3000 2100 3350 2100
+Connection ~ 3350 2100
+Wire Wire Line
+	3200 3200 3200 2950
+Connection ~ 3200 2950
+Wire Wire Line
+	3200 3500 3450 3500
+Wire Wire Line
+	3450 3200 3450 3150
+Connection ~ 3450 3150
+$Comp
+L +3.3V #PWR07
+U 1 1 592A13A9
+P 3200 3800
+F 0 "#PWR07" H 3200 3650 50  0001 C CNN
+F 1 "+3.3V" H 3200 3940 50  0000 C CNN
+F 2 "" H 3200 3800 50  0000 C CNN
+F 3 "" H 3200 3800 50  0000 C CNN
+	1    3200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 592A13D2
+P 3450 4050
+F 0 "R1" V 3530 4050 50  0000 C CNN
+F 1 "1k" V 3450 4050 50  0000 C CNN
+F 2 "" V 3380 4050 50  0000 C CNN
+F 3 "" H 3450 4050 50  0000 C CNN
+	1    3450 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 592A142B
+P 3700 3750
+F 0 "D1" H 3550 3850 50  0000 C CNN
+F 1 "LED" H 3700 3850 50  0000 C CNN
+F 2 "" H 3700 3750 50  0000 C CNN
+F 3 "" H 3700 3750 50  0000 C CNN
+	1    3700 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 592A148A
+P 3900 3950
+F 0 "D2" H 3900 4050 50  0000 C CNN
+F 1 "LED" H 4050 4050 50  0000 C CNN
+F 2 "" H 3900 3950 50  0000 C CNN
+F 3 "" H 3900 3950 50  0000 C CNN
+	1    3900 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 592A160E
+P 3450 4250
+F 0 "R2" V 3530 4250 50  0000 C CNN
+F 1 "1k" V 3450 4250 50  0000 C CNN
+F 2 "" V 3380 4250 50  0000 C CNN
+F 3 "" H 3450 4250 50  0000 C CNN
+	1    3450 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 3800 3200 4250
+Wire Wire Line
+	3200 4050 3300 4050
+Wire Wire Line
+	3200 4250 3300 4250
+Connection ~ 3200 4050
+Wire Wire Line
+	3600 4250 3900 4250
+Wire Wire Line
+	3900 4250 3900 4150
+Wire Wire Line
+	3900 3750 4100 3750
+Wire Wire Line
+	3600 4050 3700 4050
+Wire Wire Line
+	3700 4050 3700 3950
+Wire Wire Line
+	3700 3550 4100 3550
+NoConn ~ 4100 3950
+NoConn ~ 4100 3350
+Text Label 5950 3950 0    60   ~ 0
+GND
+Wire Wire Line
+	5900 3950 5950 3950
+NoConn ~ 5900 3550
+NoConn ~ 5900 3350
+NoConn ~ 5900 3150
+Wire Wire Line
+	6150 2150 5900 2150
+Text HLabel 6150 2350 2    60   Input ~ 0
+DOUT
+Text HLabel 6150 2150 2    60   Input ~ 0
+DIN
+Text HLabel 6150 2550 2    60   Input ~ 0
+RTS_XBEE
+Text HLabel 6150 2750 2    60   Input ~ 0
+CTS_XBEE
+Text HLabel 6150 2950 2    60   Input ~ 0
+DTS_XBEE
+Wire Wire Line
+	6150 2350 5900 2350
+Wire Wire Line
+	6150 2550 5900 2550
+Wire Wire Line
+	6150 2750 5900 2750
+Wire Wire Line
+	6150 2950 5900 2950
+Text Label 3100 2500 0    60   ~ 0
+GND
+Wire Wire Line
+	3100 2500 3350 2500
+$EndSCHEMATC

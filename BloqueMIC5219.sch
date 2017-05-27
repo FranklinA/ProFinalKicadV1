@@ -1,0 +1,226 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:open-project
+LIBS:NorBot
+LIBS:ej2cese
+LIBS:FT231XS
+LIBS:ERJ-3GEYJ270V
+LIBS:XB24-Z7WIT-004
+LIBS:ProFinalKicadV1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MIC5219-3.3BM5 U2
+U 1 1 5929CD9D
+P 5400 3350
+F 0 "U2" H 5400 3750 60  0000 C CNN
+F 1 "MIC5219-3.3BM5" H 5450 2950 60  0000 C CNN
+F 2 "" H 5400 3350 60  0000 C CNN
+F 3 "" H 5400 3350 60  0000 C CNN
+	1    5400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 5929CF21
+P 4500 3350
+F 0 "#PWR08" H 4500 3100 50  0001 C CNN
+F 1 "GND" H 4500 3200 50  0000 C CNN
+F 2 "" H 4500 3350 50  0000 C CNN
+F 3 "" H 4500 3350 50  0000 C CNN
+	1    4500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR09
+U 1 1 5929CF65
+P 6250 3050
+F 0 "#PWR09" H 6250 2900 50  0001 C CNN
+F 1 "+3.3V" H 6250 3190 50  0000 C CNN
+F 2 "" H 6250 3050 50  0000 C CNN
+F 3 "" H 6250 3050 50  0000 C CNN
+	1    6250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR010
+U 1 1 5929CF7C
+P 4650 3050
+F 0 "#PWR010" H 4650 2900 50  0001 C CNN
+F 1 "+5V" H 4650 3190 50  0000 C CNN
+F 2 "" H 4650 3050 50  0000 C CNN
+F 3 "" H 4650 3050 50  0000 C CNN
+	1    4650 3050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5900 3550
+$Comp
+L C C2
+U 1 1 5929D037
+P 6400 3350
+F 0 "C2" H 6425 3450 50  0000 L CNN
+F 1 "C" H 6425 3250 50  0000 L CNN
+F 2 "" H 6438 3200 50  0000 C CNN
+F 3 "" H 6400 3350 50  0000 C CNN
+	1    6400 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C1
+U 1 1 5929D10E
+P 6100 3350
+F 0 "C1" H 6125 3450 50  0000 L CNN
+F 1 "CP1" H 6125 3250 50  0000 L CNN
+F 2 "" H 6100 3350 50  0000 C CNN
+F 3 "" H 6100 3350 50  0000 C CNN
+	1    6100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR011
+U 1 1 5929D1E4
+P 6100 3550
+F 0 "#PWR011" H 6100 3300 50  0001 C CNN
+F 1 "GND" H 6100 3400 50  0000 C CNN
+F 2 "" H 6100 3550 50  0000 C CNN
+F 3 "" H 6100 3550 50  0000 C CNN
+	1    6100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 5929D1F8
+P 6400 3550
+F 0 "#PWR012" H 6400 3300 50  0001 C CNN
+F 1 "GND" H 6400 3400 50  0000 C CNN
+F 2 "" H 6400 3550 50  0000 C CNN
+F 3 "" H 6400 3550 50  0000 C CNN
+	1    6400 3550
+	1    0    0    -1  
+$EndComp
+Text Label 4300 3150 0    60   ~ 0
++5V
+Text Label 6700 3150 2    60   ~ 0
++3.3V
+Text Label 4550 3350 2    60   ~ 0
+GND
+Text HLabel 3150 3150 0    60   Input ~ 0
++5V
+Text HLabel 3150 3300 0    60   Input ~ 0
++3.3V
+Text HLabel 3150 3450 0    60   Input ~ 0
+GND
+Text Label 3600 3150 0    60   ~ 0
++5V
+Text Label 3600 3300 0    60   ~ 0
++3.3V
+Text Label 3600 3450 0    60   ~ 0
+GND
+Wire Wire Line
+	4900 3350 4500 3350
+Wire Wire Line
+	4900 3550 4650 3550
+Wire Wire Line
+	4650 3550 4650 3050
+Wire Wire Line
+	4300 3150 4900 3150
+Connection ~ 4650 3150
+Wire Wire Line
+	5900 3150 6700 3150
+Wire Wire Line
+	6400 3150 6400 3200
+Wire Wire Line
+	6100 3200 6100 3150
+Connection ~ 6100 3150
+Wire Wire Line
+	6250 3050 6250 3150
+Connection ~ 6250 3150
+Wire Wire Line
+	6400 3500 6400 3550
+Wire Wire Line
+	6100 3500 6100 3550
+Connection ~ 6400 3150
+Wire Wire Line
+	3600 3150 3150 3150
+Wire Wire Line
+	3600 3300 3150 3300
+Wire Wire Line
+	3600 3450 3150 3450
+Wire Notes Line
+	2750 2900 2750 3600
+Wire Notes Line
+	2750 3600 3900 3600
+Wire Notes Line
+	3900 3600 3900 2900
+Wire Notes Line
+	3900 2900 2750 2900
+Wire Notes Line
+	4250 2650 4250 3900
+Wire Notes Line
+	4250 3900 6900 3900
+Wire Notes Line
+	6900 3900 6900 2650
+Wire Notes Line
+	6900 2650 4250 2650
+Text Label 6500 3550 0    60   ~ 0
+GND
+Wire Wire Line
+	6400 3550 6500 3550
+Text Label 6200 3550 0    60   ~ 0
+GND
+Wire Wire Line
+	6100 3550 6200 3550
+$Comp
+L PWR_FLAG #FLG013
+U 1 1 592A84F7
+P 4900 3000
+F 0 "#FLG013" H 4900 3095 50  0001 C CNN
+F 1 "PWR_FLAG" H 4900 3180 50  0000 C CNN
+F 2 "" H 4900 3000 50  0000 C CNN
+F 3 "" H 4900 3000 50  0000 C CNN
+	1    4900 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3150 4900 3000
+$EndSCHEMATC
