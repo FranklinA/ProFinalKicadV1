@@ -28,8 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:open-project
-LIBS:NorBot
 LIBS:ej2cese
 LIBS:FT231XS
 LIBS:ERJ-3GEYJ270V
