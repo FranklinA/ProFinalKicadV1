@@ -202,49 +202,6 @@ F 3 "" H 3450 3350 50  0000 C CNN
 	1    3450 3350
 	1    0    0    -1  
 $EndComp
-Text Label 3100 2750 0    60   ~ 0
-GND
-Text Label 3450 3500 0    60   ~ 0
-GND
-Wire Wire Line
-	4100 2350 4050 2350
-Wire Wire Line
-	3650 2150 4100 2150
-Wire Wire Line
-	3950 2150 3950 2750
-Wire Wire Line
-	3950 2550 4100 2550
-Wire Wire Line
-	3950 2750 4100 2750
-Connection ~ 3950 2550
-Connection ~ 3950 2150
-Wire Wire Line
-	3650 2450 3650 2500
-Wire Wire Line
-	4100 2950 4000 2950
-Wire Wire Line
-	4100 3150 4000 3150
-Wire Wire Line
-	3600 2950 3000 2950
-Wire Wire Line
-	3600 3150 3000 3150
-Wire Wire Line
-	3000 2750 3100 2750
-Wire Wire Line
-	3350 2500 3350 2450
-Wire Wire Line
-	3350 2050 3350 2150
-Wire Wire Line
-	3000 2100 3350 2100
-Connection ~ 3350 2100
-Wire Wire Line
-	3200 3200 3200 2950
-Connection ~ 3200 2950
-Wire Wire Line
-	3200 3500 3450 3500
-Wire Wire Line
-	3450 3200 3450 3150
-Connection ~ 3450 3150
 $Comp
 L +3.3V #PWR07
 U 1 1 592A13A9
@@ -300,6 +257,71 @@ F 3 "" H 3450 4250 50  0000 C CNN
 	1    3450 4250
 	0    1    1    0   
 $EndComp
+NoConn ~ 4100 3950
+NoConn ~ 4100 3350
+NoConn ~ 5900 3550
+NoConn ~ 5900 3350
+NoConn ~ 5900 3150
+Text HLabel 6150 2350 2    60   Input ~ 0
+DOUT
+Text HLabel 6150 2150 2    60   Input ~ 0
+DIN
+Text HLabel 6150 2550 2    60   Input ~ 0
+RTS_XBEE
+Text HLabel 6150 2750 2    60   Input ~ 0
+CTS_XBEE
+Text HLabel 6150 2950 2    60   Input ~ 0
+DTS_XBEE
+$Comp
+L GND #PWR08
+U 1 1 5930D968
+P 3400 3550
+F 0 "#PWR08" H 3400 3300 50  0001 C CNN
+F 1 "GND" H 3400 3400 50  0000 C CNN
+F 2 "" H 3400 3550 50  0000 C CNN
+F 3 "" H 3400 3550 50  0000 C CNN
+	1    3400 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2350 4050 2350
+Wire Wire Line
+	3650 2150 4100 2150
+Wire Wire Line
+	3950 2150 3950 2750
+Wire Wire Line
+	3950 2550 4100 2550
+Wire Wire Line
+	3950 2750 4100 2750
+Connection ~ 3950 2550
+Connection ~ 3950 2150
+Wire Wire Line
+	3650 2450 3650 2500
+Wire Wire Line
+	4100 2950 4000 2950
+Wire Wire Line
+	4100 3150 4000 3150
+Wire Wire Line
+	3600 2950 3000 2950
+Wire Wire Line
+	3600 3150 3000 3150
+Wire Wire Line
+	3000 2750 3100 2750
+Wire Wire Line
+	3350 2500 3350 2450
+Wire Wire Line
+	3350 2050 3350 2150
+Wire Wire Line
+	3000 2100 3350 2100
+Connection ~ 3350 2100
+Wire Wire Line
+	3200 3200 3200 2950
+Connection ~ 3200 2950
+Wire Wire Line
+	3200 3500 3450 3500
+Wire Wire Line
+	3450 3200 3450 3150
+Connection ~ 3450 3150
 Wire Wire Line
 	3200 3800 3200 4250
 Wire Wire Line
@@ -319,27 +341,10 @@ Wire Wire Line
 	3700 4050 3700 3950
 Wire Wire Line
 	3700 3550 4100 3550
-NoConn ~ 4100 3950
-NoConn ~ 4100 3350
-Text Label 5950 3950 0    60   ~ 0
-GND
 Wire Wire Line
-	5900 3950 5950 3950
-NoConn ~ 5900 3550
-NoConn ~ 5900 3350
-NoConn ~ 5900 3150
+	5900 3950 6100 3950
 Wire Wire Line
 	6150 2150 5900 2150
-Text HLabel 6150 2350 2    60   Input ~ 0
-DOUT
-Text HLabel 6150 2150 2    60   Input ~ 0
-DIN
-Text HLabel 6150 2550 2    60   Input ~ 0
-RTS_XBEE
-Text HLabel 6150 2750 2    60   Input ~ 0
-CTS_XBEE
-Text HLabel 6150 2950 2    60   Input ~ 0
-DTS_XBEE
 Wire Wire Line
 	6150 2350 5900 2350
 Wire Wire Line
@@ -348,8 +353,21 @@ Wire Wire Line
 	6150 2750 5900 2750
 Wire Wire Line
 	6150 2950 5900 2950
-Text Label 3100 2500 0    60   ~ 0
-GND
 Wire Wire Line
-	3100 2500 3350 2500
+	3400 3550 3400 3500
+Connection ~ 3400 3500
+$Comp
+L GND #PWR09
+U 1 1 5930DD2A
+P 6100 4000
+F 0 "#PWR09" H 6100 3750 50  0001 C CNN
+F 1 "GND" H 6100 3850 50  0000 C CNN
+F 2 "" H 6100 4000 50  0000 C CNN
+F 3 "" H 6100 4000 50  0000 C CNN
+	1    6100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3950 6100 4000
+NoConn ~ 5900 3700
 $EndSCHEMATC

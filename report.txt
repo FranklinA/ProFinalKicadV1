@@ -1,0 +1,218 @@
+Información: Leyendo el archivo de lista de redes "/Users/franklinangulo/Documents/ProFinalKicadV1/ProFinalKicadV1.net".
+
+Información: Utilizando referencias para combinar componentes y huellas.
+
+Error: No se ha encontrado para el componente 'U4' la huella 'DIP-20' en ninguna librería de la tabla de librerías de huellas.
+
+Información: Comprobando la huella del componente de la red "C1:/5929B075/5929D10E:pf:C_0603_HandSoldering".
+
+Añadiendo del nuevo componente "C1:/5929B075/5929D10E" la huella "pf:C_0603_HandSoldering".
+
+Cambiando del componente "C1:/5929B075/5929D10E" el nombre de la red del pin "1" de "" a "+3V3".
+
+Cambiando del componente "C1:/5929B075/5929D10E" el nombre de la red del pin "2" de "" a "GND".
+
+Información: Comprobando la huella del componente de la red "C2:/5929B075/5929D037:pf:C_0603_HandSoldering".
+
+Añadiendo del nuevo componente "C2:/5929B075/5929D037" la huella "pf:C_0603_HandSoldering".
+
+Cambiando del componente "C2:/5929B075/5929D037" el nombre de la red del pin "1" de "" a "+3V3".
+
+Cambiando del componente "C2:/5929B075/5929D037" el nombre de la red del pin "2" de "" a "GND".
+
+Información: Comprobando la huella del componente de la red "C3:/5929AD7F/592A0903:pf:C_0603_HandSoldering".
+
+Añadiendo del nuevo componente "C3:/5929AD7F/592A0903" la huella "pf:C_0603_HandSoldering".
+
+Cambiando del componente "C3:/5929AD7F/592A0903" el nombre de la red del pin "1" de "" a "/BloqueFT231XS/D-".
+
+Cambiando del componente "C3:/5929AD7F/592A0903" el nombre de la red del pin "2" de "" a "GND".
+
+Información: Comprobando la huella del componente de la red "C4:/5929AD7F/592A02A8:pf:C_0603_HandSoldering".
+
+Añadiendo del nuevo componente "C4:/5929AD7F/592A02A8" la huella "pf:C_0603_HandSoldering".
+
+Cambiando del componente "C4:/5929AD7F/592A02A8" el nombre de la red del pin "1" de "" a "+5V".
+
+Cambiando del componente "C4:/5929AD7F/592A02A8" el nombre de la red del pin "2" de "" a "GND".
+
+Información: Comprobando la huella del componente de la red "C5:/5929AD7F/592A093A:pf:C_0603_HandSoldering".
+
+Añadiendo del nuevo componente "C5:/5929AD7F/592A093A" la huella "pf:C_0603_HandSoldering".
+
+Cambiando del componente "C5:/5929AD7F/592A093A" el nombre de la red del pin "1" de "" a "/BloqueFT231XS/D+".
+
+Cambiando del componente "C5:/5929AD7F/592A093A" el nombre de la red del pin "2" de "" a "GND".
+
+Información: Comprobando la huella del componente de la red "C6:/5929AD7F/5929FA06:pf:C_0603_HandSoldering".
+
+Añadiendo del nuevo componente "C6:/5929AD7F/5929FA06" la huella "pf:C_0603_HandSoldering".
+
+Cambiando del componente "C6:/5929AD7F/5929FA06" el nombre de la red del pin "1" de "" a "Net-(C6-Pad1)".
+
+Cambiando del componente "C6:/5929AD7F/5929FA06" el nombre de la red del pin "2" de "" a "GND".
+
+Información: Comprobando la huella del componente de la red "D1:/5929AD7F/592A142B:LEDs:LED_1206".
+
+Añadiendo del nuevo componente "D1:/5929AD7F/592A142B" la huella "LEDs:LED_1206".
+
+Cambiando del componente "D1:/5929AD7F/592A142B" el nombre de la red del pin "2" de "" a "Net-(D1-Pad2)".
+
+Cambiando del componente "D1:/5929AD7F/592A142B" el nombre de la red del pin "1" de "" a "Net-(D1-Pad1)".
+
+Información: Comprobando la huella del componente de la red "D2:/5929AD7F/592A148A:LEDs:LED_1206".
+
+Añadiendo del nuevo componente "D2:/5929AD7F/592A148A" la huella "LEDs:LED_1206".
+
+Cambiando del componente "D2:/5929AD7F/592A148A" el nombre de la red del pin "2" de "" a "Net-(D2-Pad2)".
+
+Cambiando del componente "D2:/5929AD7F/592A148A" el nombre de la red del pin "1" de "" a "Net-(D2-Pad1)".
+
+Información: Comprobando la huella del componente de la red "D501:/5929B0C7/592F63ED:LEDs:LED_1206".
+
+Añadiendo del nuevo componente "D501:/5929B0C7/592F63ED" la huella "LEDs:LED_1206".
+
+Cambiando del componente "D501:/5929B0C7/592F63ED" el nombre de la red del pin "2" de "" a "Net-(D501-Pad2)".
+
+Cambiando del componente "D501:/5929B0C7/592F63ED" el nombre de la red del pin "1" de "" a "GND".
+
+Información: Comprobando la huella del componente de la red "D502:/5929B0C7/592F646D:LEDs:LED_1206".
+
+Añadiendo del nuevo componente "D502:/5929B0C7/592F646D" la huella "LEDs:LED_1206".
+
+Cambiando del componente "D502:/5929B0C7/592F646D" el nombre de la red del pin "2" de "" a "Net-(D502-Pad2)".
+
+Cambiando del componente "D502:/5929B0C7/592F646D" el nombre de la red del pin "1" de "" a "GND".
+
+Información: Comprobando la huella del componente de la red "R1:/5929AD7F/592A13D2:pf:R_1206_HandSoldering".
+
+Añadiendo del nuevo componente "R1:/5929AD7F/592A13D2" la huella "pf:R_1206_HandSoldering".
+
+Cambiando del componente "R1:/5929AD7F/592A13D2" el nombre de la red del pin "1" de "" a "Net-(D1-Pad2)".
+
+Cambiando del componente "R1:/5929AD7F/592A13D2" el nombre de la red del pin "2" de "" a "+3V3".
+
+Información: Comprobando la huella del componente de la red "R2:/5929AD7F/592A160E:pf:R_1206_HandSoldering".
+
+Añadiendo del nuevo componente "R2:/5929AD7F/592A160E" la huella "pf:R_1206_HandSoldering".
+
+Cambiando del componente "R2:/5929AD7F/592A160E" el nombre de la red del pin "1" de "" a "Net-(D2-Pad2)".
+
+Cambiando del componente "R2:/5929AD7F/592A160E" el nombre de la red del pin "2" de "" a "+3V3".
+
+Información: Comprobando la huella del componente de la red "R3:/5929AD7F/5929FE24:pf:R_1206_HandSoldering".
+
+Añadiendo del nuevo componente "R3:/5929AD7F/5929FE24" la huella "pf:R_1206_HandSoldering".
+
+Cambiando del componente "R3:/5929AD7F/5929FE24" el nombre de la red del pin "1" de "" a "/BloqueFT231XS/D-".
+
+Cambiando del componente "R3:/5929AD7F/5929FE24" el nombre de la red del pin "2" de "" a "Net-(R3-Pad2)".
+
+Información: Comprobando la huella del componente de la red "R4:/5929AD7F/5929FE8A:pf:R_1206_HandSoldering".
+
+Añadiendo del nuevo componente "R4:/5929AD7F/5929FE8A" la huella "pf:R_1206_HandSoldering".
+
+Cambiando del componente "R4:/5929AD7F/5929FE8A" el nombre de la red del pin "1" de "" a "/BloqueFT231XS/D+".
+
+Cambiando del componente "R4:/5929AD7F/5929FE8A" el nombre de la red del pin "2" de "" a "Net-(R4-Pad2)".
+
+Información: Comprobando la huella del componente de la red "R501:/5929B0C7/592F637C:pf:R_1206_HandSoldering".
+
+Añadiendo del nuevo componente "R501:/5929B0C7/592F637C" la huella "pf:R_1206_HandSoldering".
+
+Cambiando del componente "R501:/5929B0C7/592F637C" el nombre de la red del pin "1" de "" a "/RSSI".
+
+Cambiando del componente "R501:/5929B0C7/592F637C" el nombre de la red del pin "2" de "" a "Net-(D501-Pad2)".
+
+Información: Comprobando la huella del componente de la red "R502:/5929B0C7/592F63C0:pf:R_1206_HandSoldering".
+
+Añadiendo del nuevo componente "R502:/5929B0C7/592F63C0" la huella "pf:R_1206_HandSoldering".
+
+Cambiando del componente "R502:/5929B0C7/592F63C0" el nombre de la red del pin "1" de "" a "+5V".
+
+Cambiando del componente "R502:/5929B0C7/592F63C0" el nombre de la red del pin "2" de "" a "Net-(D502-Pad2)".
+
+Información: Comprobando la huella del componente de la red "SW501:/5929B0C7/592F6581:Measurement_Points:Test_Point_2Pads".
+
+Añadiendo del nuevo componente "SW501:/5929B0C7/592F6581" la huella "Measurement_Points:Test_Point_2Pads".
+
+Cambiando del componente "SW501:/5929B0C7/592F6581" el nombre de la red del pin "1" de "" a "GND".
+
+Cambiando del componente "SW501:/5929B0C7/592F6581" el nombre de la red del pin "2" de "" a "/RESET".
+
+Información: Comprobando la huella del componente de la red "U1:/5929CA9D:Connect:USB_Micro-B".
+
+Añadiendo del nuevo componente "U1:/5929CA9D" la huella "Connect:USB_Micro-B".
+
+Cambiando del componente "U1:/5929CA9D" el nombre de la red del pin "1" de "" a "+5V".
+
+Cambiando del componente "U1:/5929CA9D" el nombre de la red del pin "2" de "" a "/BloqueFT231XS/D-".
+
+Cambiando del componente "U1:/5929CA9D" el nombre de la red del pin "3" de "" a "/BloqueFT231XS/D+".
+
+Cambiando del componente "U1:/5929CA9D" el nombre de la red del pin "4" de "" a "Net-(U1-Pad4)".
+
+Cambiando del componente "U1:/5929CA9D" el nombre de la red del pin "5" de "" a "GND".
+
+Información: Comprobando la huella del componente de la red "U2:/5929B075/5929CD9D:pf:SOIC-8".
+
+Añadiendo del nuevo componente "U2:/5929B075/5929CD9D" la huella "pf:SOIC-8".
+
+Cambiando del componente "U2:/5929B075/5929CD9D" el nombre de la red del pin "1" de "" a "+5V".
+
+Cambiando del componente "U2:/5929B075/5929CD9D" el nombre de la red del pin "2" de "" a "GND".
+
+Cambiando del componente "U2:/5929B075/5929CD9D" el nombre de la red del pin "3" de "" a "+5V".
+
+Cambiando del componente "U2:/5929B075/5929CD9D" el nombre de la red del pin "4" de "" a "Net-(U2-Pad4)".
+
+Cambiando del componente "U2:/5929B075/5929CD9D" el nombre de la red del pin "5" de "" a "+3V3".
+
+Información: Comprobando la huella del componente de la red "U3:/5929AD7F/5929F5BC:pf:SP3232ECN-SOIC16N".
+
+Añadiendo del nuevo componente "U3:/5929AD7F/5929F5BC" la huella "pf:SP3232ECN-SOIC16N".
+
+Información: Comprobando la huella del componente de la red "U4:/5929ADF1/592A8847:DIP-20".
+
+Error: No se puede añadir el nuevo componente "U4:/5929ADF1/592A8847" ya que le falta la huella "DIP-20".
+
+Error: No se ha encontrado del componente 'U3' el pad 'P17' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P1' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P19' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P6' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P18' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P12' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P10' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P20' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P11' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P9' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P8' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P4' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P5' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P2' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P15' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P16' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P3' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P14' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P7' en la huella 'pf:SP3232ECN-SOIC16N'
+
+Error: No se ha encontrado del componente 'U3' el pad 'P13' en la huella 'pf:SP3232ECN-SOIC16N'
+
