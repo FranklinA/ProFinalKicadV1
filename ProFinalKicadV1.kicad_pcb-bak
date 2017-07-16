@@ -14,14 +14,7 @@
 
   (page A4)
   (title_block
-    (title "Xbee EDU-CIA")
     (date 2017-07-16)
-    (rev V1.2)
-    (company "Por: Ing. Franklin Angulo")
-    (comment 1 "Revisión Inicial: Gaston Coche")
-    (comment 2 "Revisión Final: Diego Brengi")
-    (comment 3 "CESE TP Final")
-    (comment 4 "Sistemas embebidos UBA")
   )
 
   (layers
