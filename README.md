@@ -59,4 +59,4 @@ O incluir el nombre del lenguage de programación:
 
 
 
-![Una imagen cualquiera](http://dummyimage.com/150 "De 150 x 150 píxeles")
+![Una imagen cualquiera](https://github.com/FranklinA/ProFinalKicadV1/blob/PrototipoFinal/XbeeEDU_CIAA.png?raw=true "De 150 x 150 píxeles")
